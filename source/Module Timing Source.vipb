@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2014-08-01 11:03:12" Creator="Daniel" Comments="" ID="2bf672a80b91d43061b7f6bddc068c09">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2014-08-01 11:47:06" Creator="Daniel" Comments="" ID="f7403c4fc5adfa01dfe9bf6219bd587b">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_timesource</Package_File_Name>
     <Library_Version>1.0.0.5</Library_Version>
@@ -31,8 +31,8 @@
       <Description/>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
-      <URL/>
-      <Release_Notes>Added documentation.</Release_Notes>
+      <URL>https://github.com/TBDFramework/timing</URL>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -312,7 +312,7 @@
         <Path>drop vis</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E02FE3DE5A566129D775F3A40FD72EE4</GUID>
+      <GUID>DD51CA88C5F3B3963AEC44EE3986004A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -375,7 +375,7 @@
         <Path>drop vis\scan engine timing source.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1556BA1AADE5E182EB1B8A3BDFFABA62</GUID>
+      <GUID>DDCE799B8295C88F662F10B60488EF28</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
