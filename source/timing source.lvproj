@@ -124,6 +124,7 @@ AddOutputFilter chunkFilter
 			<Item Name="1mhzabstimingsource_1000dt.vi" Type="VI" URL="../tests/1mhzabstimingsource_1000dt.vi"/>
 			<Item Name="1mhztimingsource_1000dt.vi" Type="VI" URL="../tests/1mhztimingsource_1000dt.vi"/>
 			<Item Name="configure processor core.vi" Type="VI" URL="../tests/configure processor core.vi"/>
+			<Item Name="making class not screw up.vi" Type="VI" URL="../tests/making class not screw up.vi"/>
 			<Item Name="run tests.vi" Type="VI" URL="../tests/run tests.vi"/>
 			<Item Name="scanclass_1ms_10dt.vi" Type="VI" URL="../tests/scanclass_1ms_10dt.vi"/>
 			<Item Name="scanclass_10ms_1dt.vi" Type="VI" URL="../tests/scanclass_10ms_1dt.vi"/>
@@ -135,8 +136,6 @@ AddOutputFilter chunkFilter
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9068</Property>
 		</Item>
-		<Item Name="making class not screw up.vi" Type="VI" URL="../tests/making class not screw up.vi"/>
-		<Item Name="Untitled 4" Type="VI"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2015-01-08 18:16:04" Creator="Daniel" Comments="" ID="edd5a341463ab78e51bd01f34d6b4cbc">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2015-01-12 14:09:42" Creator="Daniel" Comments="" ID="a7b21d09d79e735e35f1ff7aa70504d9">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_timesource</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\timing</Library_Output_Folder>
@@ -309,7 +309,7 @@
         <Path>drop vis</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38FB1A70148876B56B9F14132B5913F0</GUID>
+      <GUID>197A832A6D391354753562220AACB6B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -372,7 +372,7 @@
         <Path>drop vis\scan engine timing source.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C8D3D66CBBA3E2B29E185882064EBCF</GUID>
+      <GUID>DF37D3F4174BDDD15EC95AB7067A5BAF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
