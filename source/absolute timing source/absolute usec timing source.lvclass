@@ -47,7 +47,7 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">period (ns)</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">period (ns)</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="get rate.vi" Type="VI" URL="../get rate.vi">
+			<Item Name="get period.vi" Type="VI" URL="../get period.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!"!!,='6S;7^E)#BO=SE!1%"Q!"Y!!#5D97*T&lt;WRV&gt;'5A&gt;8.F9S"U;7VJ&lt;G=A=W^V=G.F,GRW9WRB=X-!%82J&lt;7FO:S"T&lt;X6S9W5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!*3.B9H.P&lt;(6U:3"V=W6D)(2J&lt;7FO:S"T&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!1&gt;'FN;7ZH)(.P&gt;8*D:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -73,13 +73,13 @@
 		</Item>
 	</Item>
 	<Item Name="get remaining time budget.vi" Type="VI" URL="../get remaining time budget.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!"!!,9H6E:W6U)#BO=SE!1%"Q!"Y!!#5D97*T&lt;WRV&gt;'5A&gt;8.F9S"U;7VJ&lt;G=A=W^V=G.F,GRW9WRB=X-!%82J&lt;7FO:S"T&lt;X6S9W5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!*1!=!!G2U!!"!1(!!(A!!*3.B9H.P&lt;(6U:3"V=W6D)(2J&lt;7FO:S"T&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!1&gt;'FN;7ZH)(.P&gt;8*D:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*)!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#!!,9H6E:W6U)#BO=SE!1%"Q!"Y!!#5D97*T&lt;WRV&gt;'5A&gt;8.F9S"U;7VJ&lt;G=A=W^V=G.F,GRW9WRB=X-!%82J&lt;7FO:S"T&lt;X6S9W5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!*1!=!!G2U!!"!1(!!(A!!*3.B9H.P&lt;(6U:3"V=W6D)(2J&lt;7FO:S"T&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!1&gt;'FN;7ZH)(.P&gt;8*D:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">8401408</Property>
 	</Item>
 	<Item Name="initialize timing source.vi" Type="VI" URL="../initialize timing source.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!F)W&amp;C=W^M&gt;82F)(6T:7-A&gt;'FN;7ZH)(.P&gt;8*D:3ZM&gt;G.M98.T!"&amp;U;7VJ&lt;G=A=W^V=G.F)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!1%"Q!"Y!!#5D97*T&lt;WRV&gt;'5A&gt;8.F9S"U;7VJ&lt;G=A=W^V=G.F,GRW9WRB=X-!%(2J&lt;7FO:S"T&lt;X6S9W5A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
