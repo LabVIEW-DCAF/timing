@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2016-06-09 15:15:25" Creator="Daniel" Comments="" ID="b58fd66984529fe35d23ecd4c77b244e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-30 14:46:21" Modified_Date="2017-03-13 16:51:17" Creator="Daniel" Comments="" ID="db86e3e5de30420843a67dad6b2f9e11">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_timesource</Package_File_Name>
-    <Library_Version>2.1.0.2</Library_Version>
+    <Library_Version>2.1.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\timing</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/timing</URL>
-      <Release_Notes>Fixed reentrancy, changed wire to look nicer, added DT input to VIs rather than as part of the class</Release_Notes>
+      <Release_Notes>Fixed issue preventing builds on Linux RT ARM targets in later LabVIEW versions
+(https://github.com/LabVIEW-DCAF/timing/issues/8)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -256,20 +257,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>get rate.vi</NameSub_Menu_Name>
-        <Short_Name>get period (ns)</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>timing source\get rate.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>get source name.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -309,7 +296,7 @@
         <Path>drop vis</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39E8B041DAAB7D813668303872070D1C</GUID>
+      <GUID>97ADE99D271EE7F29B6C7A5929F46F41</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -372,7 +359,7 @@
         <Path>drop vis\scan engine timing source.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9519DCFE2A1D3B7F31A6328419581C25</GUID>
+      <GUID>5939C459F675D120E442DC33C5CC396D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
